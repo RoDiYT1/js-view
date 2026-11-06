@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="course-card">
+    <p class="tag">Освітня платформа</p>
+    <h1>Курс з веброзробки</h1>
+    <p id="welcome">Вітаємо, гостю!</p>
+
+    <label for="studentsName">Ваше ім'я</label>
+    <input id="studentsName" type="text" placeholder="Введінть ім'я">
+
+    <label for="format">Формат навчання</label>
+    <select id="format">
+        <option value="2000">Офлайн - 2000грн</option>
+        <option value="1500">Онлайн - 1500грн</option>
+    </select>
+    <p id="price">2000 грн</p>
+    <p id="status">Ви ще не записані на курс</p>
+    <button id="enrollBtn">Записатися на курс</button>
+
+    <button id="detailBtn" class="secondary">Показати опис</button>
+    <p class="hidden" id="details">Практичний курс з веброзробки</p>
+    <button id="themeBtn" class="secondary">Темна тема</button>
+</main>
+<script src="script.js" defer></script>
+</body>
+</html>
